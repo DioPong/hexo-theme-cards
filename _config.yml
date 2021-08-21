@@ -367,6 +367,8 @@ footer:
     # - ''
     # - ''
 
+  show_licenses: true
+
 
 
 # ---------------------------------------------------------------
@@ -380,7 +382,7 @@ lazyload:
 
 # 站内搜索插件
 search:
-  enable: false
+  enable: true
   path: search.json
   field: All  # Page | Post | All
 
@@ -408,8 +410,6 @@ darkmode: false
 mermaid: 
   enable: false
   options: 
-
-
 
 # ---------------------------------------------------------------
 # CDN for vendors
