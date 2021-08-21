@@ -69,13 +69,18 @@
     top: 'calc(%s + 10px)' % $header_height
             
     .post-side__toc
-        display block
+        display inline-block
+        box-shadow var(--mimicry)
+        border-radius 30px
         
+
         .toc
             display none
-            width 'calc((100vw - %s) / 2 - 12.6px)' % $max_width_main
-            height 'calc(100vh - %s * 2 - 20px)' % $header_height
-            padding-left 0.6rem
+            width 'calc((100vw - %s) / 2 - 40px)' % $max_width_main
+            // height 'calc(100vh - %s * 2 - 20px)' % $header_height
+            // padding-left 0.6rem
+            // Custom below
+            // padding-left 2rem
 
 @media screen and (max-width: 1246px)
     .post-side

@@ -6,13 +6,6 @@
     margin-bottom var(--space)
     position relative
 
-    &:hover
-        -webkit-transform translateY(-5px)
-        -ms-transform translateY(-5px)
-        transform translateY(-5px)
-        -webkit-box-shadow 1px 10px 30px 0 rgba(0,0,0,0.1)
-        box-shadow 1px 10px 30px 0 rgba(0,0,0,.1)
-
 .post-entry__content
     .post-entry__title
         color var(--title-color)
@@ -28,6 +21,9 @@
     position relative
     margin 1em 0 0
     z-index 1
+    // Custom
+    // box-shadow var(--mimicry)
+    // border-radius 8px
 
     &:empty
         display none
@@ -55,9 +51,10 @@
     display block
     z-index 1
     position relative
-    font-size .8em
+    font-size .9em
     opacity .8
     font-family rubik,sans-serif
+    margin 16px 0 0 0
 
     &:empty
         display none
@@ -125,15 +122,18 @@
 .post-cats__link
     display inline-block
     margin .35em
-    font-size .75em
+    font-size .9em
     text-decoration none
-    background-color var(--bg-cat-color)
+    // background-color var(--bg-cat-color)
     color currentColor !important
-    padding 0.25rem 0.6rem 0.25rem 0.6rem
-    border-radius $radius_button
+    padding 0.3rem 0.6rem 0.3rem 0.6rem
+    border-radius 10px
+
+    // Custom
+    box-shadow var(--mimicry)
 
 .post-tags__link
-    background-color var(--bg-tag-color)
+    // background-color var(--bg-tag-color)
 
 .post__license
     background-color rgb(245, 245, 245)
